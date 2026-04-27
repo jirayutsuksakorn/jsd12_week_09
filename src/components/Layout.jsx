@@ -1,3 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 export default function Layout() {
-    return <div>Navbar</div>;
+    return (
+        <div>Navbar
+            <div>
+                <Outlet />
+            </div>
+        </div>
+    );
 }
